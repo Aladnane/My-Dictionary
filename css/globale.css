@@ -1,0 +1,337 @@
+/*//-----------------Globale---------------------------*/
+
+*
+{
+    margin:0;
+    padding:0;
+}
+
+.container
+{
+    width:1200px;
+    margin:auto;
+}
+
+a
+{
+    text-decoration: none;
+    color: #eee
+}
+
+
+
+/*navGlb*/
+
+.navGlb 
+{
+    overflow: hidden;
+    font-size:20px;
+    color: #eee;
+    background: #000024;
+    border-color: #1969f2;
+    border-width: 0 0 5px 0;
+    border-style: solid;
+}
+
+
+.navGlb ul.sousMenu { display: none}
+ ul.sousMenu { display: block}
+
+.navGlb li.active, .navGlb li:hover, .navUser:hover { background: #1969F2;}
+
+/* .navGlb a:hover {color:#444;} */
+
+.navGlb > div > ul 
+{
+    overflow: hidden;
+    width:78%;
+    float:left;
+    /*! padding-left: 5%; */
+}
+.navGlb > div > ul > li
+{
+    list-style: none;
+    float: left;
+    padding:18px;
+    cursor: pointer
+}
+
+.navGlb div.navUser
+{
+    width: 15.1%;
+    float:right;
+    height: 60px;
+    cursor:pointer;
+}
+
+/* NavGlb User */
+.navGlb .blockUser .user_name
+{
+    float: left;
+    margin-top: 15px;
+}
+
+.navGlb .blockUser img
+{
+    width: 52px;
+    float: right;
+}
+
+
+/*NavGlb Sous menu*/
+.navGlb ul.sousMenu
+{
+    position: absolute;
+    list-style: none;
+    border-radius: 0px 0px 10px 10px;
+    display: none;
+    top: 58px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+}
+
+.navGlb li.active ul.sousMenu 
+{
+    display: block;
+    margin-left: -18px;
+    position: absolute;
+    z-index: 2;
+}
+
+.navGlb ul.sousMenu li
+{
+    padding: 10px 12px 14px 20px;
+    width: 150px;
+    background-color: #2D3642;
+    text-align:left
+}
+
+.navGlb ul.sousMenu li:first-child
+{
+    border-top: 8px solid #1969F2;
+}
+
+
+.navGlb li:last-child .sousMenu::Before 
+{
+    left:auto;
+    right:25%;
+}
+
+.navGlb .sousMenu li:hover
+{
+    transition-duration: .7s;
+    background-color: #363F4A;
+    padding: 10px 0px 14px 32px;
+}
+
+/* navGlb login */
+.navGlb .sMenuLogin
+{
+    background: #2E3743;
+    border-style: solid;
+    border-color: #02B3E4;
+    border-width: 8px 1px 1px;
+    z-index: 10;
+}
+.navGlb .sMenuLogin form
+{
+    padding: 14px;
+    width: 200px;
+    text-align: center;
+}
+.navGlb .sMenuLogin input
+{
+    padding: 8px;
+    width: 95%;
+    border-radius: 3px;
+    border: 0;
+}
+.navGlb .sMenuLogin input:not(first-of-type){margin:4px 0;}
+.navGlb .sMenuLogin [type='submit'] { cursor:pointer }
+
+.navGlb .btnSignup
+{
+    width: 149px;
+    margin: 10px 0 10px 114px;
+    background: transparent;
+}
+
+/* User Bloc */
+.navGlb .blockUser
+{
+    overflow: hidden;
+    height: 100%;
+    padding-left: 10px;
+}
+
+
+/* Fin navGlb */
+
+/*  bigTitle    */
+.bigTitle
+{
+    font-size: 60px;
+    color: #444;
+}
+
+/* buttons Styles*/
+.btnStyle1
+{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    color: white;    
+    font-size: 17px;
+    padding: 9px 31px;
+    background-color: #e14444;
+    box-shadow: 1px 1px 9px #ff0000b3;
+}
+
+.btnStyle2
+{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    color: white;    
+    font-size: 17px;
+    padding: 9px 31px;
+    background: #1969f2;
+    box-shadow: 0px 0px 15px #1969f2;
+    transition-duration: .7s;
+}
+.btnStyle2:hover
+{
+    background: #fff;
+    color: #1969f2;
+    transition-duration: .7s;
+}
+
+
+/*input text Style*/
+.inputStyle1
+{
+    width: 50%;
+    padding: 13px 10px;
+    margin: 30px auto;
+    display: block;
+    border-radius: 3px;
+    border: 1px solid #444;
+    font-size: 18px;
+}
+
+/*------------------- Custom ComboBox -----------------------*/
+
+.comboBox 
+{
+    text-align: left;
+    width: 625px;
+    margin: auto;
+}
+
+.comboBox div.title
+{
+    padding:14px;
+    background-color:#444;
+    color: #ccc;
+    font-size: 19px;
+    border-radius: 6px;
+    overflow: hidden;
+    color: white;
+    cursor: pointer;
+}
+
+.comboBox div.title i
+{
+    font-size: 25px;
+    float: right;
+}
+
+
+.comboBox ul
+{
+    display: none; 
+    list-style:none;
+    margin-top: 3px;
+    background: #fbfbfb;
+    border-radius: 3px 3px 18px 13px;
+    position: absolute;
+    width: inherit;
+    border-bottom: 3px solid #0074E8;
+    box-shadow: 2px -1px 4px 2px #ccc;
+    overflow: hidden
+}
+
+.comboBox li { padding: 14px; }
+
+.comboBox li:hover
+{
+    background: #cecece;
+    cursor: pointer
+}
+.comboBox li a{color: #444}
+
+/*-----------------------------------------------------*/
+
+/*---------------------- Table -------------------------------*/
+
+.tableStyle1 tr:first-of-type td 
+{
+    background: #444; 
+    text-align:center;
+    color: white;
+    font-size:19px;
+    padding:10px;
+}
+.tableStyle1 tr:nth-child(odd) {background: #CCC}
+.tableStyle1 td
+{
+    padding:6px 10px;
+    text-align:left;
+    font-size:17px
+}
+
+.tableStyle1 td.favorite { width:10%; } /*ID*/
+.tableStyle1 td.firstLang { width:17%; } /*Fullname*/
+.tableStyle1 td.secondLang { width:20%; } /*Email*/
+.tableStyle1 td.type { width:22.7%; } /*Control*/
+.tableStyle1 td.desciption { width:22.7%; } /*Control*/
+
+
+/*Buttons (edit/remove) */
+
+.tableStyle1 button
+{
+    border-radius:5px;
+    border:1px solid #ccc;
+    padding:7px 9px;
+    cursor:pointer;
+    color: white;
+}
+
+.tableStyle1 i
+{
+    margin-left: 7px;
+    color: #58a4ea;
+}
+
+/*-----------------------------------------------------*/
+
+.bottomLight
+{
+    background: #1969F2;
+    box-shadow: 0 0 37px 24px #1969F2;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: none
+}
+
+
+
+
+
+
+
+

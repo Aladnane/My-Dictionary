@@ -1,0 +1,162 @@
+
+
+
+/*Section Profile*/
+section { margin-top: 150px }
+section .container
+{
+    background: #1b9eff;
+    min-height: 1000px;
+    border-radius: 25px 25px 0 0px;
+    overflow: hidden;
+    padding: 20px;
+    box-shadow: 0 0 29px 10px #1969F2;
+}
+.prf_info
+{
+    position: absolute;
+    left: 43%;
+    top: 12%;
+    background: #ccc9;
+    border-radius: 100px;
+    padding: 19px 32px;
+    text-align: center;
+    box-shadow: 0 0 22px 0px #ccc;
+}
+.prf_img { width: 150px }
+
+
+/* languages */
+.languages{margin-top: 80px;}
+
+.info
+{
+    text-align: center;
+    width: 15%;
+    background: #0074E8;
+    color: white;
+    padding: 30px 50px;
+    float: left;
+    border-radius: 4px;
+    box-shadow: 2px 6px 7px #444;
+
+}
+.info:not(:last-child){margin-right: 7px;}
+
+.info:first-of-type { background-color: #4DB051}
+.info:nth-child(2) { background-color: #0ECB95;;margin-left: 5px;}
+.info:nth-child(3) { background-color: #FE9601}
+.info:last-of-type { background-color: #F44036}
+
+.info div:first-of-type
+{
+    font-size: 50px;
+    margin-bottom: 11px;
+}
+.info span{font-size: 25px}
+
+
+/* Fin Section Profile */
+
+/* Groupe Box */
+.groupeBox
+{
+    border:2px solid #444;
+    overflow: hidden;
+    margin: 80px 0;
+    text-align: center;
+    padding: 10px 0 30px;
+}
+
+.groupeBox .title
+{
+    font-size: 40px;
+    margin: 10px 0 30px;
+}
+
+.info.long
+{
+    padding: 40px 0px;
+    overflow: hidden;
+    width: auto;
+    min-width: 296px;
+}
+
+.info.long div {font-size: 33px;}
+
+/* Les Tableaux */
+
+.title
+{
+    padding: 20px 20px;
+    color: white;
+    text-align:center;
+    font-size:30px;
+}
+h2.title i:first-of-type
+{
+    margin:0 10px
+
+}
+.block h2.title
+{   
+    background-color: #484848;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+}
+
+.block h2.title.active { background-color: #2782D5; }
+
+.block h2.title i:not(:first-of-type)
+{
+    font-size: 36px;
+    margin-top: -7px;
+}
+.block h2.title i.showMore
+{
+    float: left;
+    margin-right:19px;
+}
+.block h2.title i.link { float: right }
+
+
+
+.block div.details
+{
+    padding: 20px;
+    font-size: 23px;
+    background-color: white;
+    display:none;
+    outline: 4px solid #cccccc1a;
+}
+
+.block div.details p
+{
+    margin-bottom: 16px;
+}
+
+/*table .tableStyle1*/
+table.tableStyle1 { margin: auto }
+
+.tableStyle1 .favorite, .tableStyle1 .remove , .tableStyle1 .garder{text-align: center}
+
+i.remove,
+i.favorite,  
+i.save
+{
+    font-size: 27px;
+    cursor:pointer
+}
+
+i.save {color: #1bc1d5 !important}
+i.favorite {color: #f0ed1e !important}
+i.remove{color: #f00c !important}
+
+/* Ligne Selectioné Pour La Supprission */
+
+.tableStyle1 tr.rmv {background: #f33 !important;}
+
+.tableStyle1 tr.rmv .garder i {color: white;}
+.tableStyle1 tr.rmv .favorite i {color: white;}
+.tableStyle1 tr.rmv .remove i.remove{color: white;}
+

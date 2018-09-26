@@ -1,0 +1,103 @@
+
+body
+{
+    background-image: url(../../images/image8.jpg);
+    background-size: 100%
+}
+
+/*//------------------------Form-----------------------*/
+
+.formGlb.signup
+{
+    width:500px;
+    background-color: #4449;
+    margin:auto;
+    padding: 10px 0;
+    border-radius: 10px;
+    margin-top: 74px;
+}
+
+.formGlb img.user
+{
+    width:80px;
+    display:block;
+    margin:-69px auto 0;
+    border: 1px solid #ffffff80;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: #D5D0D0CC;
+}
+
+
+.formGlb.signup input
+{
+    width:80%;
+    padding:13px 10px;
+    margin:30px auto;
+    display:block;
+    border-radius:3px;
+    border:0px;
+    font-size:18px;
+    color:#358DDF;
+}
+
+.formGlb.signup [type='submit']
+{
+    width: 84%;
+    color: white;
+    background-color: #358DDF;
+    cursor: pointer;
+    border-radius: 42px 3px 33px 3px;
+}
+
+/*Erreur in an Input (Input Vide)*/
+.formGlb.signup .inputErr
+{
+    border: 2px solid #fe1919cc;
+    padding: 12px 6px;
+    color: #f00;
+    border-width: 0px 0px 0px 7px;
+}
+
+/*Check Box*/
+.formGlb.signup div.beAdmin
+{
+    width: 82%;
+    margin: auto;
+}
+
+/*//---------------------------------------------------*/
+
+
+/* requied Inputs */
+
+div.required
+{
+    position: relative;
+}
+
+div.required:after
+{
+    content:"*"; 
+    color: red;
+    position:absolute;
+    z-index:1;
+    right:17px;
+    top:13px;
+    font-size: 21px;
+}
+/*-------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,117 @@
+
+
+.hidden { display: none;}
+
+
+
+/* Section.NewWords*/
+section.newWords
+{
+    text-align: center;
+    margin-top: 80px;
+}
+
+
+/*Choose Languges*/
+.chooseLang, .btnAdd { margin: 40px 0 }
+
+.chooseLang button { width: 22% }
+
+
+/*button Ajouter les Mots au Tableau*/
+.btnAdd
+{
+    background-color: #28a2e4;
+    box-shadow: 1px 1px 9px #008affcc;
+    padding: 16px 100px;
+}
+
+/*button Change les Langues*/
+.changelang
+{
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 26px;
+    color: #444;
+    cursor: pointer;
+    margin: 0 17px;
+}
+
+/*Title table */
+.wordsInserted .bigTitle
+{
+    font-size: 40px;
+    color: #28a2e4cc;
+    margin: 15px 0;
+}
+
+/*table .tableStyle1*/
+table.tableStyle1 { margin: auto }
+
+.tableStyle1 .favorite, .tableStyle1 .remove {text-align: center}
+
+.tableStyle1 .remove i,
+.tableStyle1 .favorite i 
+{
+    font-size: 27px;
+    cursor:pointer
+}
+
+.tableStyle1 .favorite i {color: #f0ed1e}
+.tableStyle1 .remove i.remove{color: #f00c;}
+
+/* popupLang (choose another Langue)*/
+.popupLang
+{
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+
+/* background-color */
+.popupLang > div:first-of-type
+{
+    background-color: #444c;
+    width: inherit;
+    height: inherit;
+}
+
+.popupLang > div:last-of-type
+{
+    position: absolute;
+    left: 28%;
+    top: 23%;
+    width: 500px;
+    background-color: #ccc;
+    height: 250px;
+    overflow: hidden;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.popupLang > div:last-of-type h2
+{
+    padding: 8px;
+    color: #555;
+}
+
+
+.popupLang .lang
+{
+    float: left;
+    padding: 11px 26px;
+    background: #eee;
+    margin: 10px;
+    border-radius: 20px;
+    cursor:pointer
+}
+
+/* Fin Popup Traduction */
+
+
+
+

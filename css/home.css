@@ -1,0 +1,246 @@
+
+body
+{
+    min-height: 1000px;
+}
+
+/* NavGlb */
+.navGlb.home 
+{
+    background-color: transparent;
+    position:fixed;
+    width: 100%;
+    z-index: 1;
+    border:0;
+} 
+.navGlb.home.bottom 
+{
+    background: #000024;
+    border-color: #1969f2;
+    border-width: 0 0 5px 0;
+    border-style: solid;
+} 
+
+.navGlb.home ul.sousMenu,
+.navGlb.bottom ul.sousMenu,
+.navGlb.home li.active ul.sousMenu
+{position:fixed}
+
+/* Header */
+header
+{
+    height: 758px;
+}
+
+header > img
+{
+    width: 100%;
+    position: absolute;
+    z-index:0
+}
+
+.background
+{
+    width:100%;
+    opacity:.3;
+    background: #000;
+    height: 548px;
+    position: absolute;
+    z-index:0
+}
+header div:last-of-type
+{
+    position: relative;
+    color: white;
+    text-align:center;
+    padding-top: 120px
+}
+
+header h1
+{
+    font-size: 67px;
+}
+header p
+{
+    font-size: 26px;
+    margin: 91px 42px 20px;
+    box-shadow: 0px 0px 22px #1969F2;
+    width: 400px;
+    padding: 30px;
+    line-height: 1.8;
+    border-radius: 11px;
+}
+header p span, header h1 span { color: #1969F2}
+
+
+header .icons img
+{
+    width: 80px;
+    margin: 0 22px;
+}
+
+/* ----------------- Login --------------------- */
+section.login 
+{
+    background: #eee;
+    min-height:600px;
+    text-align: center;
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+section.login h1.title
+{
+    font-size: 50px;
+    color: #1969F2;
+}
+
+section.login img
+{
+    width: 400px;
+    margin: 29px 100px;
+    float:right;
+    border: 5px solid #1969f2;
+    border-radius: 200px;
+}
+.login ul.avantage 
+{
+    float:left;
+    margin: 100px 0;
+    text-align: left
+}
+
+.login ul.avantage li
+{
+    list-style: none;
+    font-size: 25px;
+    padding: 12px 0 10px 26px;
+}
+
+.login ul.avantage li i {color: #1969f2;}
+
+
+.login .btnStyle2 /*button Inscrire*/
+{
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 56px;
+    width: 300px;
+    background: #1969f2;
+    box-shadow: 0px 0px 15px #1969f2;
+    transition-duration: .7s;
+}
+.login .btnStyle2:hover
+{
+    background: #fff;
+    color: #1969f2;
+    transition-duration: .7s;
+}
+
+/* ----------------- Fin Login --------------------- */
+
+    
+/* ----------------- New Words --------------------- */
+section.newWords{position: relative}
+section.newWords > img{ width: 100%; }
+section.newWords > h1.bigTitle
+{
+    bottom: 4px;
+    left: 26%;
+}
+.bigTitle
+{
+    text-align: center;
+    background: #1969F2;
+    padding: 18px;
+    border-radius: 71px 0 81px 0;
+    width: 45%;
+    margin: auto;
+    position: absolute;
+    color: #eee;  
+    font-size: 25px;
+}
+
+/* ------------------------------------------------- */
+
+/* -------------------.siteInfo ---------------------- */
+.siteInfo
+{
+    height:500px;
+    background: #454d58;
+    padding-top: 100px;
+    position:relative
+}
+
+.siteInfo h1.bigTitle
+{
+    top:5px;
+    left:26%;
+    border-radius: 0 71px 0 81px;
+}
+
+.siteInfo .moreInfo
+{
+    overflow: hidden;
+    padding: 30px;
+}
+
+.siteInfo .block
+{
+    width: 24%;
+    /*! background: #eee; */
+    padding: 13px 17px;
+    float:left;
+    box-shadow: 0px 0px 25px 9px #1969F2;
+    border-radius: 9px;
+    color: #eee;
+}
+
+.siteInfo .block:not(:last-of-type)
+{
+    margin-right:100px
+}
+.siteInfo .block h2
+{
+    margin-bottom:20px;
+    color: #1969F2;
+}
+.siteInfo .block p
+{
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.siteInfo .block li
+{
+    list-style: none;
+    padding: 5px;
+    font-size: 19px;
+}
+/* ------------------------------------------------- */
+
+
+/* ------------------ Footer ------------------------- */
+
+/* bar bottom */
+footer
+{
+    padding: 20px;
+    background: #222;
+    font-size: 19px;
+    color: #eee;
+}
+
+footer span
+{
+    color: #02B3E4    
+}
+
+footer .version
+{
+    float: right;
+    text-decoration:underline;    
+    color: #777;
+}
+/* ------------------------------------------------- */
+
